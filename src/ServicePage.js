@@ -14,9 +14,11 @@ import student from './img/stdents.png';
 function ServicePage() {
     return (
     <div class="container">
-        <div class="logo">
-            <img src={dlbLogo} alt="DLB Logo"/>
-        </div>
+        <Link to = "/">
+            <div class="logo">
+                <img src={dlbLogo} alt="DLB Logo"/>
+            </div>
+        </Link>
         <div class="main-text">
             <p>상담 및 예약</p>
             <img src={call} alt="Calendar Icon"/>
@@ -46,6 +48,11 @@ function ServicePage() {
                 <img src={light} alt="Space Icon"/>
                 <p>공간 대여</p>
             </Link>
+            <Link to="/government" class="option">
+                <img src={light} alt="Space Icon"/>
+                <p>지자체 수업</p>
+            </Link>
+
         </div>
         <div class="students">
             <img src={student} alt="Students"/>
@@ -54,4 +61,7 @@ function ServicePage() {
     );
 }
 
+// 지자체 수업 클릭 -> 과탐 / 사탐 / 세특 
+// 각각 클릭하면 상담으로 넘어가게 
+// 
 export default ServicePage;

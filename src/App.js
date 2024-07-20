@@ -5,6 +5,12 @@ import dlbLogo from './img/dlb.png';
 import tieLogo from './img/tie.png';
 import ServicePage from './ServicePage'
 import Edit from './Edit';
+import Consult from './Consulting';
+import StudyCare from './StudyCare';
+import Lecture from './Lecture';
+import Youtube from './Youtube';
+import Space from './Space';
+
 
 function App() {
   return (
@@ -14,6 +20,11 @@ function App() {
             <Route path="/" element = {<Dlb/>}/>
             <Route path="/service" element = {<ServicePage/>}/>
             <Route path="/edit" element = {<Edit/>}/>
+            <Route path = '/consult' element = {<Consult/>}/>
+            <Route path = "/studycare" element = {<StudyCare/>}/>
+            <Route path = "/lecture" element = {<Lecture/>}/>
+            <Route path = "/youtube" element = {<Youtube/>}/>
+            <Route path = "/space" element = {<Space/>}/>
           </Routes>
         </BrowserRouter>
       </div>
