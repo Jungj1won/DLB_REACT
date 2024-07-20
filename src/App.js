@@ -10,7 +10,7 @@ import StudyCare from './StudyCare';
 import Lecture from './Lecture';
 import Youtube from './Youtube';
 import Space from './Space';
-
+import Footer from './Footer' 
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
             <Route path = "/space" element = {<Space/>}/>
           </Routes>
         </BrowserRouter>
+        <Footer />
       </div>
   );
 }
