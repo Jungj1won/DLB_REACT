@@ -7,9 +7,11 @@ import pen from './img/pen.png';
 function StudyCare() {
     return (
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={pen} alt="Pen Icon" class="pen-icon"/>
                 <h1>자습 시간에<br/>집중이 잘 안되시나요?</h1>

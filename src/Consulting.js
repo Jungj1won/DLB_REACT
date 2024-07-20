@@ -8,9 +8,11 @@ import chat from './img/chat.png';
 function Consulting() {
     return(
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={chat} alt="Consulting Icon" class="consulting-icon"/>
                 <h1>희망 학과를<br/>정하지 못하셨나요?</h1>

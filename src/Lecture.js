@@ -7,9 +7,11 @@ import teach from './img/teach.png';
 function Lecture() {
     return(
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={teach} alt="Teaching Icon" class="teach-icon"/>
                 <h1>믿을만한 과탐학원을<br/>찾고 계신가요?</h1>
@@ -19,7 +21,7 @@ function Lecture() {
                     <li><strong>내신과 수능 대비</strong> 또한 맞춤으로 강의해드립니다</li>
                 </ul>
                 <Link to="/" class="btn">커리큘럼 보기 <span>&#9654;</span></Link>
-                <Link to="/" class="btn">상담 및 예약 <span>&#9654;</span></Link>
+                <Link to="https://clinicscience1.wixsite.com/no1science" class="btn">상담 및 예약 <span>&#9654;</span></Link>
             </div>
         </div>
     )

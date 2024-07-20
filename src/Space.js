@@ -7,9 +7,11 @@ import light from './img/light.png';
 function Space() {
     return(
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={light} alt="Lamp Icon" class="lamp-icon"/>
                 <h1>쾌적한 스터디룸을<br/>찾고 계신가요?</h1>

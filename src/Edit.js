@@ -7,9 +7,11 @@ import document from './img/document.png';
 function Edit() {
     return(
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={document} alt="Document Icon" class="document-icon"/>
                 <h1>수시 자료 준비,<br/>할 것이 너무 많죠?</h1>

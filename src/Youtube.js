@@ -6,9 +6,11 @@ import play from './img/play.png';
 function Youtube() {
     return(
         <div class="container">
-            <div class="logo">
-                <img src={dlbLogo} alt="DLB Logo"/>
-            </div>
+            <Link to = "/">
+                <div class="logo">
+                    <img src={dlbLogo} alt="DLB Logo"/>
+                </div>
+            </Link>
             <div class="content">
                 <img src={play} alt="Play Icon" class="play-icon"/>
                 <h1>DLB 에듀에서는<br/>인강을 무료로!</h1>
